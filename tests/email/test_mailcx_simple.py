@@ -6,9 +6,11 @@ mail.cx 定时获取邮件测试
 
 import sys
 import time
-sys.path.insert(0, '/')
+import os
+# Add project root to path
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '../..')))
 
-from email import EmailClient
+from airdrop_email import EmailClient
 
 
 def poll_emails(client, interval=5, max_polls=12):
