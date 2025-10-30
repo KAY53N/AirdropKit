@@ -1,0 +1,15 @@
+# AirdropKit Email Module - 更新的依赖
+
+# Web requests
+requests>=2.31.0
+
+# HTML parsing (for email code extraction)
+beautifulsoup4>=4.12.0
+
+# Cloudflare bypass (for mail.cx)
+cloudscraper>=1.2.71
+
+# Email handling (built-in with Python, but listed for clarity)
+# imaplib - built-in
+# smtplib - built-in
+# email - built-in
